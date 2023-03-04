@@ -1,0 +1,38 @@
+header {
+  display: flex;
+  padding: 0 20px;
+}
+
+.home-link {
+  flex: 1;
+}
+
+nav {
+  width: 280px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  text-decoration: none;
+  width: 85px;
+  height: 28px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: lightgray;
+  color: black;
+  font-size: 1rem;
+}
+
+.btn.active {
+  background-color: #4c4c4c;
+  color: #ffffff;
+}
+
+h1 {
+  padding: 25px;
+}
